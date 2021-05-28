@@ -1,0 +1,25 @@
+{
+  "author": "Jaro Varga",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress",
+    "build-server": "cross-env NODE_ENV=production webpack --config webpack.server.config.js --progress"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.9",
+    "vue-server-renderer": "^2.6.12"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-merge": "^5.4.0"
+  }
+}
